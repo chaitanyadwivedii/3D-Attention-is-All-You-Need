@@ -1,5 +1,5 @@
 # 3D-Attention-is-All-You-Need
-A transformer based video question answering system 
+A transformer based video question answering system.    
 Detailed explanation: https://www.academia.edu/41601920/3D_Attention_is_All_You_Need
 
 ## INTRODUCTION
