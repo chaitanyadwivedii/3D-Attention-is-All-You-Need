@@ -29,6 +29,9 @@ the challenge of comprehending temporal context along with cross-modal connectio
 the SlowFast net here.  
 For further details, refer to the project report at the end. 
 
+## RESULT
+Beats the state of art accuracy [4] by **5.2%**.
+
 ## Requirements
 Pytorch-1.3
 
@@ -39,3 +42,4 @@ sh Run.sh
 1) 3D Attention is All You Need: https://www.academia.edu/41601920/3D_Attention_is_All_You_Need
 2) LXMERT: https://arxiv.org/abs/1908.07490
 3) SlowFast net: https://arxiv.org/abs/1812.03982
+4) TGIF-QA: Toward Spatio-Temporal Reasoning in Visual Question Answering: https://arxiv.org/abs/1704.04497
