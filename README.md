@@ -1,6 +1,6 @@
 # 3D-Attention-is-All-You-Need
 A transformer based video question answering system 
-
+Detailed explanation: https://www.academia.edu/41601920/3D_Attention_is_All_You_Need
 
 ## INTRODUCTION
 Understanding visual contents, at human-level is the holy grail in visual intelligence. To this end,there has been a tremendous amount of research to solve visual question answering. However, thismostly involves image input, and the video domain still is still nascent. Among other reasons, the
