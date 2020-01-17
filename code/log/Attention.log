@@ -1,0 +1,471 @@
+
+
+Epoch: 0 
+train loss: 127.10465001257823 | train acc: 2.3333333333333335
+
+
+Epoch: 1 
+train loss: 123.47736952838056 | train acc: 1.3333333333333335
+
+
+Epoch: 0 
+train loss: 27.619651173836452 | train acc: 8.333333333333332
+
+
+Epoch: 1 
+train loss: 8.08816720850018 | train acc: 14.000000000000002
+
+
+Epoch: 2 
+train loss: 1.3067086456152606 | train acc: 14.000000000000002
+
+
+Epoch: 3 
+train loss: 1.2807984982755605 | train acc: 16.333333333333332
+
+
+Epoch: 0 
+train loss: 127.03219313272076 | train acc: 1.3333333333333335
+
+
+Epoch: 1 
+train loss: 123.48671728149985 | train acc: 0.6666666666666667
+
+
+Epoch: 2 
+train loss: 123.38744379716981 | train acc: 1.6666666666666667
+
+
+Epoch: 3 
+train loss: 123.29884357504575 | train acc: 2.3333333333333335
+
+
+Epoch: 0 
+train loss: 27.802541764670732 | train acc: 6.333333333333334
+
+
+Epoch: 1 
+train loss: 1.4153928307161843 | train acc: 12.0
+
+
+Epoch: 2 
+train loss: 1.3010111271463523 | train acc: 14.000000000000002
+
+
+Epoch: 3 
+train loss: 1.2753603150969302 | train acc: 16.666666666666664
+
+
+Epoch: 4 
+train loss: 1.2423262688232926 | train acc: 14.000000000000002
+
+
+Epoch: 5 
+train loss: 1.2184365591959903 | train acc: 15.666666666666668
+
+
+Epoch: 0 
+train loss: 28.30108195070231 | train acc: 7.666666666666666
+
+
+Epoch: 1 
+train loss: 56.691961502053964 | train acc: 12.0
+
+
+Epoch: 2 
+train loss: 1.2958013485403281 | train acc: 13.666666666666666
+
+
+Epoch: 3 
+train loss: 1.212995329156372 | train acc: 20.333333333333332
+
+
+Epoch: 4 
+train loss: 1.1681786179791802 | train acc: 23.0
+
+
+Epoch: 5 
+train loss: 1.1561012849132561 | train acc: 20.333333333333332
+
+
+Epoch: 6 
+train loss: 1.0906473112234611 | train acc: 26.0
+
+
+Epoch: 7 
+train loss: 1.0490459035361028 | train acc: 25.0
+
+
+Epoch: 8 
+train loss: 1.0352042977669949 | train acc: 25.0
+
+
+Epoch: 0 
+train loss: 28.254280815876506 | train acc: 9.333333333333334
+
+
+Epoch: 1 
+train loss: 1.364464589323193 | train acc: 18.666666666666668
+
+
+Epoch: 2 
+train loss: 1.2066701646195142 | train acc: 21.0
+
+
+Epoch: 3 
+train loss: 1.1502181015037032 | train acc: 24.0
+
+
+Epoch: 4 
+train loss: 1.1208005443933542 | train acc: 26.333333333333332
+
+
+Epoch: 5 
+train loss: 1.0842170696512436 | train acc: 24.0
+
+
+Epoch: 6 
+train loss: 1.064047516870323 | train acc: 27.0
+
+
+Epoch: 7 
+train loss: 1.047709722033209 | train acc: 25.0
+
+
+Epoch: 8 
+train loss: 1.0375229572951745 | train acc: 24.333333333333336
+
+
+Epoch: 9 
+train loss: 1.0161777965400383 | train acc: 25.0
+
+
+Epoch: 0 
+train loss: 80.78533659627212 | train acc: 9.722222222222223
+
+
+Epoch: 1 
+train loss: 67.58504352808296 | train acc: 7.291666666666667
+
+
+Epoch: 0 
+train loss: 22.741183309801972 | train acc: 12.5
+
+
+Epoch: 1 
+train loss: 10.194673569683928 | train acc: 1.0416666666666665
+
+
+Epoch: 2 
+train loss: 3.396826278414659 | train acc: 13.194444444444445
+
+
+Epoch: 3 
+train loss: 1.3620562395856917 | train acc: 17.708333333333336
+
+
+Epoch: 4 
+train loss: 0.7278255889580608 | train acc: 18.055555555555554
+
+
+Epoch: 5 
+train loss: 0.49738776280202185 | train acc: 18.055555555555554
+
+
+Epoch: 6 
+train loss: 0.4011137961892244 | train acc: 17.708333333333336
+
+
+Epoch: 0 
+train loss: 14.342481216616935 | train acc: 7.986111111111111
+
+
+Epoch: 1 
+train loss: 0.2720309182142351 | train acc: 12.5
+
+
+Epoch: 2 
+train loss: 0.22413917658067428 | train acc: 14.583333333333334
+
+
+Epoch: 3 
+train loss: 0.2086821517133957 | train acc: 13.88888888888889
+
+
+Epoch: 4 
+train loss: 0.2022853399513783 | train acc: 17.36111111111111
+
+
+Epoch: 5 
+train loss: 0.1980256327307148 | train acc: 18.055555555555554
+
+
+Epoch: 6 
+train loss: 0.1956124714816956 | train acc: 17.708333333333336
+
+
+Epoch: 7 
+train loss: 0.19440175968183915 | train acc: 17.708333333333336
+
+
+Epoch: 8 
+train loss: 0.19309241259563648 | train acc: 17.708333333333336
+
+
+Epoch: 9 
+train loss: 0.19302060755168132 | train acc: 17.708333333333336
+
+
+Epoch: 0 
+train loss: 15.628937774804147 | train acc: 10.416666666666668
+
+
+Epoch: 1 
+train loss: 0.2624435875574147 | train acc: 11.805555555555555
+
+
+Epoch: 2 
+train loss: 0.2259333183129645 | train acc: 14.23611111111111
+
+
+Epoch: 3 
+train loss: 0.2111717062870472 | train acc: 9.722222222222223
+
+
+Epoch: 4 
+train loss: 0.20870899098250137 | train acc: 13.194444444444445
+
+
+Epoch: 5 
+train loss: 0.1992684017004432 | train acc: 17.708333333333336
+
+
+Epoch: 6 
+train loss: 0.19827527649692145 | train acc: 17.36111111111111
+
+
+Epoch: 7 
+train loss: 0.1953867124505831 | train acc: 13.541666666666666
+
+
+Epoch: 8 
+train loss: 0.19422615466391618 | train acc: 16.319444444444446
+
+
+Epoch: 9 
+train loss: 0.19465217622984463 | train acc: 16.666666666666664
+
+
+Epoch: 0 
+train loss: 2.6161207838097855 | train acc: 33.67690058479532
+
+
+Epoch: 1 
+train loss: 0.13968108634993132 | train acc: 45.8406432748538
+
+
+Epoch: 2 
+train loss: 0.12497997279052044 | train acc: 48.67690058479533
+
+
+Epoch: 3 
+train loss: 0.11011397582394522 | train acc: 52.7266081871345
+
+
+Epoch: 4 
+train loss: 0.09160500550519572 | train acc: 59.06432748538012
+
+
+Epoch: 5 
+train loss: 0.07599244856678611 | train acc: 65.68713450292397
+
+
+Epoch: 6 
+train loss: 0.06363769276496593 | train acc: 70.87719298245614
+
+
+Epoch: 7 
+train loss: 0.05396757924917966 | train acc: 75.25584795321637
+
+
+Epoch: 8 
+train loss: 0.04736746724677229 | train acc: 77.98976608187135
+
+
+Epoch: 9 
+train loss: 0.0422465058855253 | train acc: 79.85380116959064
+
+
+Epoch: 10 
+train loss: 0.03845842237707506 | train acc: 81.62280701754386
+
+
+Epoch: 11 
+train loss: 0.03565963032428976 | train acc: 82.54385964912281
+
+
+Epoch: 12 
+train loss: 0.03349057011138398 | train acc: 83.3406432748538
+
+
+Epoch: 13 
+train loss: 0.03183330584165206 | train acc: 83.9546783625731
+
+
+Epoch: 14 
+train loss: 0.03116052485439897 | train acc: 83.99853801169591
+
+
+Epoch: 15 
+train loss: 0.03021559084708041 | train acc: 84.12280701754385
+
+
+Epoch: 16 
+train loss: 0.029298181006999897 | train acc: 84.68567251461988
+
+
+Epoch: 17 
+train loss: 0.028209673035994285 | train acc: 85.0657894736842
+
+
+Epoch: 18 
+train loss: 0.027692626318174346 | train acc: 85.27046783625731
+
+
+Epoch: 19 
+train loss: 0.02692162244392531 | train acc: 85.3874269005848
+
+
+Epoch: 20 
+train loss: 0.026652147523974927 | train acc: 85.65789473684211
+
+
+Epoch: 21 
+train loss: 0.02554071031266747 | train acc: 86.09649122807016
+
+
+Epoch: 22 
+train loss: 0.025054305162596033 | train acc: 86.0672514619883
+
+
+Epoch: 23 
+train loss: 0.02460286718450896 | train acc: 86.31578947368422
+
+
+Epoch: 24 
+train loss: 0.023947220049648284 | train acc: 86.58625730994152
+
+
+Epoch: 25 
+train loss: 0.023582786348078925 | train acc: 86.91520467836257
+
+
+Epoch: 26 
+train loss: 0.022858661887216365 | train acc: 87.1783625730994
+
+
+Epoch: 27 
+train loss: 0.022295069284476204 | train acc: 87.42690058479532
+
+
+Epoch: 28 
+train loss: 0.0218663598557161 | train acc: 87.90204678362574
+
+
+Epoch: 29 
+train loss: 0.02132188636725341 | train acc: 88.12134502923976
+
+
+Epoch: 0 
+train loss: 32.06897722596896 | train acc: 37.5
+Validation loss: 100.87498513656638 | Validation acc: 20.0
+
+
+Epoch: 1 
+train loss: 31.36344939670398 | train acc: 33.33333333333333
+Validation loss: 67.87566520975516 | Validation acc: 10.0
+
+
+Epoch: 2 
+train loss: 21.396663861237077 | train acc: 0.0
+Validation loss: 57.54219145447515 | Validation acc: 13.333333333333334
+
+
+Epoch: 3 
+train loss: 18.073167215865844 | train acc: 12.5
+Validation loss: 36.61008559883549 | Validation acc: 6.666666666666667
+
+
+Epoch: 4 
+train loss: 11.465721690130769 | train acc: 12.5
+Validation loss: 19.493671151835255 | Validation acc: 6.666666666666667
+
+
+Epoch: 5 
+train loss: 6.1073307327693875 | train acc: 8.333333333333332
+Validation loss: 9.672898933744445 | Validation acc: 0.0
+
+
+Epoch: 6 
+train loss: 3.0347689106823665 | train acc: 0.0
+Validation loss: 4.747548334615228 | Validation acc: 0.0
+
+
+Epoch: 7 
+train loss: 1.448480530376637 | train acc: 8.333333333333332
+Validation loss: 2.4232437330388135 | Validation acc: 16.666666666666664
+
+
+Epoch: 8 
+train loss: 0.7062603091394183 | train acc: 25.0
+Validation loss: 1.4720003679069866 | Validation acc: 16.666666666666664
+
+
+Epoch: 9 
+train loss: 0.4143293202242971 | train acc: 16.666666666666664
+Validation loss: 1.0990095240719258 | Validation acc: 0.0
+
+
+Epoch: 0 
+train loss: 32.06897722596896 | train acc: 37.5
+Validation loss: 100.87498513656638 | Validation acc: 20.0
+
+
+Epoch: 1 
+train loss: 31.36344939670398 | train acc: 33.33333333333333
+Validation loss: 67.87566520975516 | Validation acc: 10.0
+
+
+Epoch: 2 
+train loss: 21.396663861237077 | train acc: 0.0
+Validation loss: 57.54219145447515 | Validation acc: 13.333333333333334
+
+
+Epoch: 0 
+train loss: 32.06897722596896 | train acc: 37.5
+Validation loss: 100.87498513656638 | Validation acc: 20.0
+
+
+Epoch: 1 
+train loss: 31.36344939670398 | train acc: 33.33333333333333
+Validation loss: 67.87566520975516 | Validation acc: 10.0
+
+
+Epoch: 2 
+train loss: 21.396663861237077 | train acc: 0.0
+Validation loss: 57.54219145447515 | Validation acc: 13.333333333333334
+
+
+Epoch: 0 
+train loss: 32.63898272371919 | train acc: 20.833333333333336
+Validation loss: 103.54096990188016 | Validation acc: 14.156318480642804
+
+
+Epoch: 0 
+train loss: 2.2720701409667163 | train acc: 34.09790640394089
+Validation loss: 0.14885687583826349 | Validation acc: 43.87143900657414
+
+
+Epoch: 1 
+train loss: 0.13942875240676383 | train acc: 44.40168308702791
+Validation loss: 0.14343229110433148 | Validation acc: 44.791818845872896

@@ -1,0 +1,483 @@
+
+
+Epoch: 2 
+train loss: cnn_bridge_network(
+  (fast_avg_pool_3d): AvgPool3d(kernel_size=(4, 1, 1), stride=(4, 1, 1), padding=0)
+  (cnn1): Conv3d(2304, 384, kernel_size=(3, 3, 3), stride=(1, 1, 1))
+  (cnn2): Conv3d(384, 768, kernel_size=(3, 2, 2), stride=(1, 2, 2))
+  (temporal_attention): Temporal_Transformer(
+    (tail): Tail(
+      (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (bn2): Norm()
+      (pos_embd): PositionalEncoder()
+      (Qpr): Sequential(
+        (0): Conv2d(256, 628, kernel_size=(3, 3), stride=(2, 2), bias=False)
+        (1): BatchNorm2d(628, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (2): ReLU()
+        (3): Conv2d(628, 1000, kernel_size=(3, 3), stride=(2, 2), bias=False)
+        (4): BatchNorm2d(1000, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (5): ReLU()
+      )
+      (list_layers): ModuleList(
+        (0): Block_head(
+          (T1): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+          (T2): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+          (T3): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+        )
+        (1): Block_head(
+          (T1): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+          (T2): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+          (T3): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+        )
+        (2): Block_head(
+          (T1): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+          (T2): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+          (T3): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+        )
+        (3): Block_head(
+          (T1): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+          (T2): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+          (T3): TX(
+            (dropout): Dropout(p=0.1, inplace=False)
+            (dropout_2): Dropout(p=0.1, inplace=False)
+            (norm_1): Norm()
+            (norm_2): Norm()
+            (ff): FeedForward(
+              (linear_1): Linear(in_features=250, out_features=125, bias=True)
+              (dropout): Dropout(p=0.3, inplace=False)
+              (linear_2): Linear(in_features=125, out_features=250, bias=True)
+            )
+          )
+        )
+      )
+      (classifier): Sequential(
+        (0): Linear(in_features=1000, out_features=256, bias=True)
+        (1): Softmax(dim=-1)
+      )
+    )
+    (query_projection): Linear(in_features=768, out_features=50, bias=True)
+    (query_act): ReLU()
+  )
+) | train acc: 1
+
+
+Epoch: 0 
+train loss: 498.8064463683993 | train acc: 16.374269005847953
+
+
+Epoch: 1 
+train loss: 496.67785772095675 | train acc: 6.783625730994151
+
+
+Epoch: 2 
+train loss: 496.40641442990307 | train acc: 5.380116959064328
+
+
+Epoch: 0 
+train loss: 610.7268387834562 | train acc: 83.33333333333334
+
+
+Epoch: 1 
+train loss: 510.80619023548303 | train acc: 33.33333333333333
+
+
+Epoch: 2 
+train loss: 506.5476312539549 | train acc: 33.33333333333333
+
+
+Epoch: 3 
+train loss: 505.138039955421 | train acc: 33.33333333333333
+
+
+Epoch: 4 
+train loss: 504.41187692393584 | train acc: 50.0
+
+
+Epoch: 5 
+train loss: 503.9766468258146 | train acc: 100.0
+
+
+Epoch: 6 
+train loss: 503.7724177921182 | train acc: 16.666666666666664
+
+
+Epoch: 7 
+train loss: 503.26816020097885 | train acc: 50.0
+
+
+Epoch: 8 
+train loss: 503.31240473154963 | train acc: 16.666666666666664
+
+
+Epoch: 9 
+train loss: 503.2664047213914 | train acc: 50.0
+
+
+Epoch: 0 
+train loss: 610.7268387834562 | train acc: 83.33333333333334
+
+
+Epoch: 1 
+train loss: 510.80619023548303 | train acc: 33.33333333333333
+
+
+Epoch: 2 
+train loss: 506.5476312539549 | train acc: 33.33333333333333
+
+
+Epoch: 3 
+train loss: 505.138039955421 | train acc: 33.33333333333333
+
+
+Epoch: 4 
+train loss: 504.41187692393584 | train acc: 50.0
+
+
+Epoch: 5 
+train loss: 503.9766468258146 | train acc: 100.0
+
+
+Epoch: 6 
+train loss: 503.7724177921182 | train acc: 16.666666666666664
+
+
+Epoch: 0 
+train loss: 610.7268387834562 | train acc: 83.33333333333334
+
+
+Epoch: 1 
+train loss: 510.80619023548303 | train acc: 33.33333333333333
+
+
+Epoch: 0 
+train loss: 630.4174235997692 | train acc: 183.33333333333331
+
+
+Epoch: 1 
+train loss: 517.2809498660539 | train acc: 100.0
+
+
+Epoch: 2 
+train loss: 506.5438581307105 | train acc: 183.33333333333331
+
+
+Epoch: 3 
+train loss: 503.5942721072681 | train acc: 166.66666666666669
+
+
+Epoch: 4 
+train loss: 501.8819443716329 | train acc: 183.33333333333331
+
+
+Epoch: 5 
+train loss: 500.96889982070934 | train acc: 116.66666666666667
+
+
+Epoch: 6 
+train loss: 500.5316578647141 | train acc: 166.66666666666669
+
+
+Epoch: 7 
+train loss: 500.04399028686413 | train acc: 133.33333333333331
+
+
+Epoch: 8 
+train loss: 499.9001879329897 | train acc: 150.0
+
+
+Epoch: 9 
+train loss: 499.8181182817486 | train acc: 133.33333333333331
+
+
+Epoch: 0 
+train loss: 744.7269171960115 | train acc: 350.0
+
+
+Epoch: 1 
+train loss: 740.1754572433015 | train acc: 316.66666666666663
+
+
+Epoch: 2 
+train loss: 755.5552045019176 | train acc: 283.33333333333337
+
+
+Epoch: 3 
+train loss: 742.349666029157 | train acc: 266.66666666666663
+
+
+Epoch: 0 
+train loss: 744.726941038592 | train acc: 350.0
+
+
+Epoch: 1 
+train loss: 740.1754566992131 | train acc: 316.66666666666663
+
+
+Epoch: 2 
+train loss: 755.5552156018648 | train acc: 283.33333333333337
+
+
+Epoch: 0 
+train loss: 744.726941038592 | train acc: 350.0
+
+
+Epoch: 1 
+train loss: 740.1754566992131 | train acc: 316.66666666666663
+
+
+Epoch: 2 
+train loss: 755.5552156018648 | train acc: 283.33333333333337
+
+
+Epoch: 0 
+train loss: 211.4148505042316 | train acc: 36.0
+
+
+Epoch: 1 
+train loss: 5.9452576191398006 | train acc: 60.0
+
+
+Epoch: 2 
+train loss: 4.9341378680214225 | train acc: 44.0
+
+
+Epoch: 3 
+train loss: 4.746827488998667 | train acc: 36.0
+
+
+Epoch: 4 
+train loss: 4.4735011522615 | train acc: 44.0
+
+
+Epoch: 5 
+train loss: 4.395496452071264 | train acc: 48.0
+
+
+Epoch: 0 
+train loss: 172.58283471945515 | train acc: 48.0
+
+
+Epoch: 1 
+train loss: 5.386075907952424 | train acc: 88.0
+
+
+Epoch: 2 
+train loss: 185.184565197928 | train acc: 101.33333333333334
+
+
+Epoch: 3 
+train loss: 228.45962349955676 | train acc: 82.66666666666667
+
+
+Epoch: 4 
+train loss: 5.3538084642060815 | train acc: 48.0
+
+
+Epoch: 5 
+train loss: 5.150725795033971 | train acc: 49.333333333333336
+
+
+Epoch: 6 
+train loss: 5.074386095364055 | train acc: 52.0
+
+
+Epoch: 7 
+train loss: 5.022394976062496 | train acc: 66.66666666666666
+
+
+Epoch: 8 
+train loss: 4.9788314341288515 | train acc: 65.33333333333333
+
+
+Epoch: 9 
+train loss: 4.940345774775945 | train acc: 60.0
+
+
+Epoch: 10 
+train loss: 4.911780714235706 | train acc: 64.0
+
+
+Epoch: 11 
+train loss: 4.866554963431847 | train acc: 65.33333333333333
+
+
+Epoch: 12 
+train loss: 4.8699079129451635 | train acc: 64.0
+
+
+Epoch: 13 
+train loss: 4.858525998677966 | train acc: 58.666666666666664
+
+
+Epoch: 14 
+train loss: 4.814312912119356 | train acc: 69.33333333333334
+
+
+Epoch: 15 
+train loss: 4.8174326141757495 | train acc: 70.66666666666667
+
+
+Epoch: 16 
+train loss: 4.788563453659276 | train acc: 69.33333333333334
+
+
+Epoch: 17 
+train loss: 4.771950910485272 | train acc: 68.0
+
+
+Epoch: 18 
+train loss: 4.7513310808445315 | train acc: 70.66666666666667
+
+
+Epoch: 19 
+train loss: 4.762634074786321 | train acc: 65.33333333333333
+
+
+Epoch: 20 
+train loss: 4.720542235745371 | train acc: 72.0
+
+
+Epoch: 21 
+train loss: 4.727002622580836 | train acc: 69.33333333333334
+
+
+Epoch: 22 
+train loss: 61.46149835770215 | train acc: 69.33333333333334
+
+
+Epoch: 23 
+train loss: 4.686616693809606 | train acc: 69.33333333333334
+
+
+Epoch: 24 
+train loss: 4.682951240868623 | train acc: 69.33333333333334
+
+
+Epoch: 25 
+train loss: 4.659550102758358 | train acc: 69.33333333333334
+
+
+Epoch: 26 
+train loss: 4.666678489886711 | train acc: 69.33333333333334
+
+
+Epoch: 27 
+train loss: 4.655881785796669 | train acc: 69.33333333333334
+
+
+Epoch: 28 
+train loss: 4.629365348537224 | train acc: 69.33333333333334
+
+
+Epoch: 29 
+train loss: 4.609830373705408 | train acc: 69.33333333333334

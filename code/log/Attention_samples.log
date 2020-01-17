@@ -1,0 +1,446 @@
+
+
+Epoch: 0 
+question: A 
+ n 
+question: w 
+ h 
+question: w 
+ h 
+question: P 
+ r 
+question: w 
+ h 
+question: h 
+ o 
+question: w 
+ h 
+question: w 
+ h 
+
+
+
+Epoch: 1 
+question: P 
+ r 
+question: A 
+ n 
+question: A 
+ n 
+question: w 
+ h 
+question: P 
+ r 
+question: P 
+ r 
+question: w 
+ h 
+question: A 
+ n 
+
+
+
+Epoch: 2 
+question: A 
+ n 
+question: w 
+ h 
+question: P 
+ r 
+question: h 
+ o 
+question: A 
+ n 
+question: w 
+ h 
+question: P 
+ r 
+question: P 
+ r 
+
+
+
+Epoch: 3 
+question: w 
+ h 
+question: w 
+ h 
+question: A 
+ n 
+question: P 
+ r 
+question: P 
+ r 
+question: P 
+ r 
+question: P 
+ r 
+question: h 
+ o 
+
+
+
+Epoch: 4 
+question: P 
+ r 
+question: P 
+ r 
+question: P 
+ r 
+question: P 
+ r 
+question: A 
+ n 
+question: h 
+ o 
+question: w 
+ h 
+question: A 
+ n 
+
+
+
+Epoch: 5 
+question: A 
+ n 
+question: A 
+ n 
+question: A 
+ n 
+question: P 
+ r 
+question: A 
+ n 
+question: w 
+ h 
+question: h 
+ o 
+question: w 
+ h 
+
+
+
+Epoch: 6 
+question: w 
+ h 
+question: A 
+ n 
+question: A 
+ n 
+question: P 
+ r 
+question: A 
+ n 
+question: h 
+ o 
+question: A 
+ n 
+question: w 
+ h 
+
+
+
+Epoch: 7 
+question: A 
+ n 
+question: A 
+ n 
+question: P 
+ r 
+question: P 
+ r 
+question: A 
+ n 
+question: w 
+ h 
+question: P 
+ r 
+question: A 
+ n 
+
+
+
+Epoch: 8 
+question: A 
+ n 
+question: w 
+ h 
+question: A 
+ n 
+question: A 
+ n 
+question: w 
+ h 
+question: A 
+ n 
+question: P 
+ r 
+question: A 
+ n 
+
+
+
+Epoch: 9 
+question: w 
+ h 
+question: w 
+ h 
+question: w 
+ h 
+question: P 
+ r 
+question: A 
+ n 
+question: A 
+ n 
+question: A 
+ n 
+question: h 
+ o 
+
+
+
+Epoch: 0 
+Train
+question: what is this walking on its front legs ? 
+ Prediction: dog 
+question: what is the color of the female ? 
+ Prediction: white 
+question: what is the man holding and letting him play with his hand ? 
+ Prediction: phone 
+question: what does the man in a helmet open , then looks sideways ? 
+ Prediction: window 
+Val
+question: where is the woman wearing a blue jacket is standing . ? 
+ Prediction: doorway 
+question: what is the color of the hair ? 
+ Prediction: black 
+question: how many men are break dancing in synchronization ? 
+ Prediction: one 
+question: what is the color of the hair ? 
+ Prediction: black 
+
+
+
+Epoch: 1 
+Train
+question: how many boys in the back of a car and one is chewing ? 
+ Prediction: two 
+question: what is the color of the shirt ? 
+ Prediction: brown 
+question: what is the color of the masks ? 
+ Prediction: black 
+question: what is the color of the man ? 
+ Prediction: white 
+Val
+question: what is the color of the spotlight ? 
+ Prediction: gray 
+question: how many men are arguing next to the christmas tree ? 
+ Prediction: one 
+question: what is the dolphin painting with their mouth ? 
+ Prediction: grass 
+question: how many men are arguing next to the christmas tree ? 
+ Prediction: one 
+
+
+
+Epoch: 2 
+Train
+question: what is being put in a glass jar and an explosion happens ? 
+ Prediction: one 
+question: what is the color of the hair ? 
+ Prediction: grass 
+question: what is being put in a glass jar and an explosion happens ? 
+ Prediction: one 
+question: what are shown in the time lapse from day to night ? 
+ Prediction: one 
+Val
+question: what is the color of the dress ? 
+ Prediction: black 
+question: what is the color of the hat ? 
+ Prediction: black 
+question: what is the color of the horse ? 
+ Prediction: black 
+question: where is the woman wearing a blue jacket is standing . ? 
+ Prediction: black 
+
+
+
+Epoch: 0 
+Train
+question: what is this walking on its front legs ? 
+ Prediction: dog 
+ Answer: dog
+question: what is the color of the female ? 
+ Prediction: white 
+ Answer: white
+question: what is the man holding and letting him play with his hand ? 
+ Prediction: phone 
+ Answer: platypus
+question: what does the man in a helmet open , then looks sideways ? 
+ Prediction: window 
+ Answer: fridge
+Val
+question: where is the woman wearing a blue jacket is standing . ? 
+ Prediction: doorway 
+ Answer: room
+question: what is the color of the hair ? 
+ Prediction: black 
+ Answer: red
+question: how many men are break dancing in synchronization ? 
+ Prediction: one 
+ Answer: three
+question: what is the color of the hair ? 
+ Prediction: black 
+ Answer: black
+
+
+
+Epoch: 1 
+Train
+question: how many boys in the back of a car and one is chewing ? 
+ Prediction: two 
+ Answer: two
+question: what is the color of the shirt ? 
+ Prediction: brown 
+ Answer: black
+question: what is the color of the masks ? 
+ Prediction: black 
+ Answer: white
+question: what is the color of the man ? 
+ Prediction: white 
+ Answer: black
+Val
+question: what is the color of the spotlight ? 
+ Prediction: gray 
+ Answer: green
+question: how many men are arguing next to the christmas tree ? 
+ Prediction: one 
+ Answer: two
+question: what is the dolphin painting with their mouth ? 
+ Prediction: grass 
+ Answer: picture
+question: how many men are arguing next to the christmas tree ? 
+ Prediction: one 
+ Answer: two
+
+
+
+Epoch: 2 
+Train
+question: what is being put in a glass jar and an explosion happens ? 
+ Prediction: one 
+ Answer: bear
+question: what is the color of the hair ? 
+ Prediction: grass 
+ Answer: brown
+question: what is being put in a glass jar and an explosion happens ? 
+ Prediction: one 
+ Answer: bear
+question: what are shown in the time lapse from day to night ? 
+ Prediction: one 
+ Answer: formations
+Val
+question: what is the color of the dress ? 
+ Prediction: black 
+ Answer: green
+question: what is the color of the hat ? 
+ Prediction: black 
+ Answer: blue
+question: what is the color of the horse ? 
+ Prediction: black 
+ Answer: brown
+question: where is the woman wearing a blue jacket is standing . ? 
+ Prediction: black 
+ Answer: room
+
+
+
+Epoch: 0 
+Train
+question: what is the color of the object ? 
+ Prediction: black 
+ Answer: yellow
+question: what is the color of the shirt ? 
+ Prediction: brown 
+ Answer: black
+question: how many men are being silly and shaking their heads ? 
+ Prediction: two 
+ Answer: two
+question: what is the color of the shirt ? 
+ Prediction: black 
+ Answer: gray
+Val
+question: what is the boy playing while singing into a microphone ? 
+ Prediction: game 
+ Answer: piano
+question: what is the man kicking behind his back ? 
+ Prediction: ball 
+ Answer: ball
+question: what are the group of men in black passing ? 
+ Prediction: building 
+ Answer: guns
+question: where is someone floating . ? 
+ Prediction: ocean 
+ Answer: pool
+
+
+
+Epoch: 0 
+Train
+question: where is the woman looking at a black man . ? 
+ Prediction: room 
+ Answer: bar
+question: what is the girl wearing and blowing smoke ? 
+ Prediction: shirt 
+ Answer: headphones
+question: what is the boy lightning up ? 
+ Prediction: cat 
+ Answer: cigarette
+question: what looks up and gives the peace sign ? 
+ Prediction: cat 
+ Answer: piano
+Val
+question: what is the boy playing while singing into a microphone ? 
+ Prediction: guitar 
+ Answer: piano
+question: what is the man kicking behind his back ? 
+ Prediction: ball 
+ Answer: ball
+question: what are the group of men in black passing ? 
+ Prediction: car 
+ Answer: guns
+question: where is someone floating . ? 
+ Prediction: boat 
+ Answer: pool
+
+
+
+Epoch: 1 
+Train
+question: what are two men standing by each other and one of them raises ? 
+ Prediction: microphone 
+ Answer: flag
+question: what is using his nose to touch a leaf ? 
+ Prediction: dog 
+ Answer: dog
+question: how many guns is the woman holding and pointing ? 
+ Prediction: two 
+ Answer: two
+question: what is the person holding by a chain ? 
+ Prediction: dog 
+ Answer: skateboard
+Val
+question: how many men are walking across the room and then hug each other ? 
+ Prediction: two 
+ Answer: two
+question: what is this three girls singing and one is playing ? 
+ Prediction: instruments 
+ Answer: guitar
+question: what is skidding off the track and into a dirt field ? 
+ Prediction: car 
+ Answer: car
+question: what is the color of the cap ? 
+ Prediction: black 
+ Answer: black
+
