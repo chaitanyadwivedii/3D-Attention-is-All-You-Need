@@ -27,7 +27,7 @@ self-attention and a feed-forward sub-layer, connected by residual blocks and la
 In our work, we introduced changes to LXMERT to allow for video-question answering. To deal with
 the challenge of comprehending temporal context along with cross-modal connections, we included
 the SlowFast net here.  
-For further details, refer to the project report at the end. 
+For further details, refer to [1]. 
 
 ## RESULT
 Beats the state of art accuracy [4] by **5.2%**.
